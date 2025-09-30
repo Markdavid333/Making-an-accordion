@@ -120,7 +120,7 @@
           if (item.classList.contains("active")) {
             content.style.maxHeight = content.scrollHeight + "px";
           } else {
-            content.style.maxHeight = 60;
+            content.style.maxHeight = 56;
           }
         });
       });
