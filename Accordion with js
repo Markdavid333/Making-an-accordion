@@ -107,7 +107,7 @@
           const item = header.parentElement;
           const content = header.nextElementSibling;
 
-          // Close all items before opening the clicked one (optional)
+          
           document.querySelectorAll(".accordion-item").forEach(i => {
             if (i !== item) {
               i.classList.remove("active");
@@ -115,7 +115,6 @@
             }
           });
 
-          // Toggle current item
           item.classList.toggle("active");
 
           if (item.classList.contains("active")) {
